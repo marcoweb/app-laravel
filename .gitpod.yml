@@ -1,4 +1,3 @@
 image: gitpod/workspace-mysql
 tasks:
   - init: cp applaravel/.env.example applaravel/.env; cd applaravel; composer install; php applaravel/artisan key:generate; cd ..s
-
